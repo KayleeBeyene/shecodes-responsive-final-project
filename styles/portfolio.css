@@ -68,3 +68,21 @@ p {
 .about-section p {
   line-height: 30px;
 }
+.profile-pic {
+  border-radius: 15px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
+  }
+}
