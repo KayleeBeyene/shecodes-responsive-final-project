@@ -21,6 +21,9 @@ p {
   font-family: var(--default-font-family);
   font-weight: normal;
 }
+nav {
+  padding: 20px;
+}
 nav ul{
   margin: 0;
   padding: 0;
@@ -28,9 +31,22 @@ nav ul{
 nav li {
   display: inline;
   list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover, nav a.active {
+  color: var(--branding-color);
 }
 .logo {
   max-width: 150px;
+}
+.logo-small {
+  max-width: 42px;
 }
 .hero {
   background: var(--secondary-color);
@@ -113,5 +129,8 @@ nav li {
   .content {
     text-align: center;
     padding: 0;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
